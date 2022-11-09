@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>KinoOnline</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+
+			<div class="header__inner">
+				<div class="burger">
+					<div class="burger__menu" id="burger"></div>
+				</div>
+
+				<div class="header__logo">
+					KinoOnline
+				</div>
+
+				<div class="header__gps">
+					<img src="img/gpc.png" width="50" alt="">
+					Каспийск, RU
+				</div>
+
+				<div class="header__search" id="search">
+					<img src="img/search.png" width="30" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="navbar" id="navbar">
+		<div class="container">
+
+			<div class="nav__inner">
+				<div class="nav__close" id="close"></div>
+
+				<div class="nav__logo">
+					KinoOnline
+				</div>
+
+				<nav class="nav">
+					<a href="https://www.kinoafisha.info/online/" target="_blank" class="nav__item">Онлайн</a>
+					<a href="https://kaspiysk.kinoafisha.info/cinema/" target="_blank" class="nav__item">Кинотеатры</a>
+					<a href="https://www.kinoafisha.info/releases/" target="_blank" class="nav__item">Премьеры</a>
+				</nav>		
+			</div>
+
+			<div class="nav__films">
+
+				<div class="nav__film">
+					<div class="nav__title">
+						Фильмы и сериалы
+					</div>
+					<div class="nav__categorie">
+						<div class="categorie__item">
+							<a href="https://www.kinopoisk.ru/lists/movies/top250/" target="_blank">Что посмотреть</a>
+						</div>
+						<div class="categorie__item">
+							<a href="https://www.kinoafisha.info/rating/movies/" target="_blank">Рейтинг фильмов</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="nav__film">
+					<div class="nav__title">
+						Кинотеатры
+					</div>
+					<div class="nav__categorie">
+						<div class="categorie__item">
+							<a href="https://yandex.ru/maps/org/moskva/1490970941/?ll=47.629430%2C42.893895&mode=search&sctx=ZAAAAAgBEAAaKAoSCV8KD5pd0UdAEZFFmngHckVAEhIJYr8n1qnywT8R8YPzqWOVtj8iBgABAgMEBSgKOABAgFZIAWoCcnWdAc3MTD2gAQCoAQC9AfLr6IzCARbG%2FOj6A6q%2Bu4H1BL3S%2BcYFnsKoru0B6gEA8gEA%2BAEAggIT0LrRgNGGINC80L7RgdC60LLQsIoCAJICAzIxM5oCCnRvdWNoLW1hcHM%3D&sll=47.629430%2C42.893895&source=serp_navig&sspn=0.114326%2C0.116372&text=%D0%BA%D1%80%D1%86%20%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&z=12" target="_blank">На карте</a>
+						</div>	
+						<div class="categorie__item">
+							<a href="https://www.kinoafisha.info/releases/" target="_blank">Премьеры</a>
+						</div>
+						<div class="categorie__item">
+							<a href="https://topworld10.ru/puteshestviya/dostoprimechatelnosti/top-10-luchshih-kinoteatrov-mira/" target="_blank">Рейтинг кинотеатров</a>
+						</div>	
+					</div>
+				</div>
+
+				<div class="nav__film">
+					<div class="nav__title">
+						Медиа
+					</div>
+					<div class="nav__categorie">
+						<div class="categorie__item">
+							<a href="https://www.kinonews.ru/" target="_blank">Новости кино</a>
+						</div>					
+					</div>
+				</div>
+
+			</div>
+
+			<div class="social">
+
+				<div class="social__item">
+					<a href="https://t.me/kinopoisk" target="_blank">
+						<img src="img/social/telegram.png" height="40" alt="">
+					</a>
+				</div>
+
+				<div class="social__item">
+					<a href="https://vk.com/lomcrysherr" target="_blank">
+						<img src="img/social/vk.png" height="40" alt="">
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="intro">
+		<div class="container">
+			
+			<div class="intro__inner">
+
+				<div class="intro__item">
+					<a href="#" class="intro__link1">
+						Афиша
+					</a>
+					<a href="#" class="intro__link2">
+						Кинотеатры
+					</a>
+					<a href="#" class="intro__link3">
+						Премьеры
+					</a>
+				</div>
+
+				<div class="intro__item">
+					<form action="#">
+						<img class="form__img" src="img/search.png" width="30" alt="">
+						<input type="search" name="search" placeholder="Фильм, кинотеатр, персона...">
+					</form>
+					<form class="form" action="#">
+					<input id="input" type="search" name="search" placeholder="Фильм, кинотеатр, персона...">
+				</form>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="films">
+		<div class="container">
+			
+			<div class="films__title">
+				Фильмы в прокате в Каспийске
+			</div>
+
+			<div class="films__inner">
+
+				<a href="kinozal.html" target="_blank">
+					<div class="film__item">
+						<img src="img/films/1.png" height="150" alt="">
+						<div class="film__name">
+							Петр I. Последний царь и <br> первый император
+						</div>
+						<div class="film__time">
+							<span>21:10</span> <br>
+							2D от 300р
+							<div class="film__zal">
+								Зал Красный
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="kinozal.html" target="_blank">
+					<div class="film__item">
+						<img src="img/films/2.png" height="150" alt="">
+						<div class="film__name">
+							Чрезвычайная ситуация
+						</div>
+						<div class="film__time">
+							<span>18:20</span> <br>
+							2D от 250р
+							<div class="film__zal">
+								Зал Красный
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="kinozal.html" target="_blank">
+					<div class="film__item">
+						<img src="img/films/3.png" height="150" alt="">
+						<div class="film__name">
+							Черный Адам
+						</div>
+						<div class="times">
+							<div class="film__time">
+								<span>19:00</span> <br>
+								2D 300р
+								<div class="film__zal">
+									Зал Красный
+								</div>
+							</div>
+							<div class="film__time">
+								<span>21:40</span> <br>
+								2D 300р
+								<div class="film__zal">
+									Зал Красный
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				
+				<a href="kinozal.html" target="_blank">
+					<div class="film__item">
+						<img src="img/films/4.png" height="150" alt="">
+						<div class="film__name">
+							Большое путешествие. Специальная доставка
+						</div>
+						<div class="times">
+							<div class="film__time">
+								<span>17:00</span> <br>
+								2D от 250р
+								<div class="film__zal">
+									Зал Красный
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				<a href="kinozal.html" target="_blank">
+					<div class="film__item">
+						<img src="img/films/5.png" height="150" alt="">
+						<div class="film__name">
+							Приключения маленького Бахи
+						</div>
+						<div class="film__time">
+							<span>16:30</span> <br>
+							2D от 300р
+							<div class="film__zal">
+								Зал Красный
+							</div>
+						</div>
+					</div>
+				</a>
+				
+				<a href="kinozal.html" target="_blank">
+					<div class="film__item">
+						<img src="img/films/6.png" height="150" alt="">
+						<div class="film__name">
+							Либерея: Охотники за сокровищами
+						</div>
+						<div class="film__time">
+							<span>17:20</span> <br>
+							2D от 250р
+							<div class="film__zal">
+								Зал Красный
+							</div>
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			
+			<div class="footer__inner">	
+
+				<div class="footer__items">
+
+					<div class="footer__title">
+						Фильмы
+					</div>
+
+						<div class="footer__item">
+							<a href="https://www.kinoafisha.info/releases/" target="_blank" class="footer__link">  
+								Премьеры
+							</a>
+						</div>
+
+						<div class="footer__item">
+							<a href="https://www.kinoafisha.info/rating/movies/" target="_blank" class="footer__link">
+								Рейтинги
+							</a>
+						</div>
+
+						<div class="footer__item">
+							<a href="https://www.kinonews.ru/trailers/" target="_blank" class="footer__link">
+								Трейлеры
+							</a>
+						</div>
+
+					</div>
+
+					<div class="footer__items">
+
+						<div class="footer__title">
+							Кинотеатры
+						</div>
+
+						<div class="footer__item">
+							<a href="https://2gis.ru/kaspiysk/search/%D0%9A%D0%B8%D0%BD%D0%BE%D1%82%D0%B5%D0%B0%D1%82%D1%80%D1%8B/rubricId/192" target="_blank" class="footer__link">  
+								Кинотеатры в Каспийске
+							</a>
+						</div>
+
+						<div class="footer__item">
+							<a href="https://yandex.ru/maps/org/moskva/1490970941/?ll=47.629430%2C42.893895&mode=search&sctx=ZAAAAAgBEAAaKAoSCV8KD5pd0UdAEZFFmngHckVAEhIJYr8n1qnywT8R8YPzqWOVtj8iBgABAgMEBSgKOABAgFZIAWoCcnWdAc3MTD2gAQCoAQC9AfLr6IzCARbG%2FOj6A6q%2Bu4H1BL3S%2BcYFnsKoru0B6gEA8gEA%2BAEAggIT0LrRgNGGINC80L7RgdC60LLQsIoCAJICAzIxM5oCCnRvdWNoLW1hcHM%3D&sll=47.629430%2C42.893895&source=serp_navig&sspn=0.114326%2C0.116372&text=%D0%BA%D1%80%D1%86%20%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&z=12" target="_blank" class="footer__link">
+								На карте
+							</a>
+						</div>
+
+					</div>
+
+					<div class="footer__items">
+
+						<div class="footer__title">
+							Тексты
+						</div>
+
+						<div class="footer__item">
+							<a href="https://www.kinonews.ru/" target="_blank" class="footer__link">  
+								Новости
+							</a>
+						</div>
+
+						<div class="footer__item">
+							<a href="https://www.culture.ru/cinema/articles" target="_blank" class="footer__link">
+								Статьи о кино
+							</a>
+						</div>
+
+					</div>
+
+					<div class="footer__items">
+
+						<div class="footer__title">
+							KinoOnline в сети
+						</div>
+
+						<div class="footer__item">
+							<a href="https://vk.com/lomcrysherr" target="_blank" class="footer__link flex">  
+								<div class="footer__img">
+									<img src="img/social/vk.png" height="20" alt="">
+								</div>
+								<div class="footer__social__name">
+									Вконтакте
+								</div>
+							</a>
+						</div>
+
+						<div class="footer__item">
+							<a href="https://t.me/kinopoisk" target="_blank" class="footer__link flex">  
+								<div class="footer__img">
+									<img src="img/social/telegram.png" height="20" alt="">
+								</div>
+								<div class="footer__social__name">
+									Новости кино
+								</div>
+							</a>
+						</div>
+
+					</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

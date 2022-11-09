@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Кинозал</title>
+</head>
+<body>
+	<header class="header" style="margin-bottom: 50px;">
+		<div class="container">
+
+			<div class="header__inner">
+				<div class="burger">
+					<div class="burger__menu" id="burger"></div>
+				</div>
+
+				<div class="header__logo">
+					KinoOnline
+				</div>
+
+				<div class="header__gps">
+					<img src="img/gpc.png" width="50" alt="">
+					Каспийск, RU
+				</div>
+
+				<div class="header__search" id="search">
+					<img src="img/search.png" width="30" alt="">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="navbar" id="navbar">
+		<div class="container">
+
+			<div class="nav__inner">
+				<div class="nav__close" id="close"></div>
+
+				<div class="nav__logo">
+					KinoOnline
+				</div>
+
+				<nav class="nav">
+					<a href="#" class="nav__item">Онлайн</a>
+					<a href="#" class="nav__item">Кинотеатры</a>
+					<a href="#" class="nav__item">Премьеры</a>
+				</nav>		
+			</div>
+
+			<div class="nav__films">
+
+				<div class="nav__film">
+					<div class="nav__title">
+						Фильмы и сериалы
+					</div>
+					<div class="nav__categorie">
+						<div class="categorie__item">
+							<a href="#">Что посмотреть</a>
+						</div>
+						<div class="categorie__item">
+							<a href="#">Рейтинг фильмов</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="nav__film">
+					<div class="nav__title">
+						Кинотеатры
+					</div>
+					<div class="nav__categorie">
+						<div class="categorie__item">
+							<a href="#">На карте</a>
+						</div>	
+						<div class="categorie__item">
+							<a href="https://www.kinoafisha.info/releases/" target="_blank">Премьеры</a>
+						</div>
+						<div class="categorie__item">
+							<a href="https://topworld10.ru/puteshestviya/dostoprimechatelnosti/top-10-luchshih-kinoteatrov-mira/" target="_blank">Рейтинг кинотеатров</a>
+						</div>	
+					</div>
+				</div>
+
+				<div class="nav__film">
+					<div class="nav__title">
+						Медиа
+					</div>
+					<div class="nav__categorie">
+						<div class="categorie__item">
+							<a href="https://www.kinonews.ru/" target="_blank">Новости кино</a>
+						</div>					
+					</div>
+				</div>
+
+			</div>
+
+			<div class="social">
+
+				<div class="social__item">
+					<a href="https://t.me/kinopoisk" target="_blank">
+						<img src="img/social/telegram.png" height="40" alt="">
+					</a>
+				</div>
+
+				<div class="social__item">
+					<a href="https://vk.com/lomcrysherr" target="_blank">
+						<img src="img/social/vk.png" height="40" alt="">
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="kinozal">
+		<div class="container">
+
+			<div class="kinozal__title">
+				Кинозал <span>KinoOnline</span>
+			</div>
+			
+			<div class="kinozal__inner">
+				
+				<!-- Ряд 1 -->
+				<div class="kinozal__item" id="item1">
+					<div class="square" id="square1">
+						<div class="square__num" id="num1">
+							1
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item2">
+					<div class="square" id="square2">
+						<div class="square__num" id="num2">
+							2
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item3">
+					<div class="square" id="square3">
+						<div class="square__num" id="num3">
+							3
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item4">
+					<div class="square" id="square4">
+						<div class="square__num" id="num4">
+							4
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item5">
+					<div class="square" id="square5">
+						<div class="square__num" id="num5">
+							5
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item6">
+					<div class="square" id="square6">
+						<div class="square__num" id="num6">
+							6
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item7">
+					<div class="square" id="square7">
+						<div class="square__num" id="num7">
+							7
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item8">
+					<div class="square" id="square8">
+						<div class="square__num" id="num8">
+							8
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item9">
+					<div class="square" id="square9">
+						<div class="square__num" id="num9">
+							9
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item10">
+					<div class="square" id="square10">
+						<div class="square__num" id="num10">
+							10
+						</div>
+					</div>
+				</div>
+
+				<!-- Ряд 2 -->
+				<div class="kinozal__item" id="item11">
+					<div class="square" id="square11">
+						<div class="square__num" id="num11">
+							11
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item12">
+					<div class="square" id="square12">
+						<div class="square__num" id="num12">
+							12
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item13">
+					<div class="square" id="square13">
+						<div class="square__num" id="num13">
+							13
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item14">
+					<div class="square" id="square14">
+						<div class="square__num" id="num14">
+							14
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item15">
+					<div class="square" id="square15">
+						<div class="square__num" id="num15">
+							15
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item16">
+					<div class="square" id="square16">
+						<div class="square__num" id="num16">
+							16
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item17">
+					<div class="square" id="square17">
+						<div class="square__num" id="num17">
+							17
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item18">
+					<div class="square" id="square18">
+						<div class="square__num" id="num18">
+							18
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item19">
+					<div class="square" id="square19">
+						<div class="square__num" id="num19">
+							19
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item20">
+					<div class="square" id="square20">
+						<div class="square__num" id="num20">
+							20
+						</div>
+					</div>
+				</div>
+
+				<!-- Ряд 3 -->
+				<div class="kinozal__item" id="item21">
+					<div class="square" id="square21">
+						<div class="square__num" id="num21">
+							21
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item22">
+					<div class="square" id="square22">
+						<div class="square__num" id="num22">
+							22
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item23">
+					<div class="square" id="square23">
+						<div class="square__num" id="num23">
+							23
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item24">
+					<div class="square" id="square24">
+						<div class="square__num" id="num24">
+							24
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item25">
+					<div class="square" id="square25">
+						<div class="square__num" id="num25">
+							25
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item26">
+					<div class="square" id="square26">
+						<div class="square__num" id="num26">
+							26
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item27">
+					<div class="square" id="square27">
+						<div class="square__num" id="num27">
+							27
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item28">
+					<div class="square" id="square28">
+						<div class="square__num" id="num28">
+							28
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item29">
+					<div class="square" id="square29">
+						<div class="square__num" id="num29">
+							29
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item30">
+					<div class="square" id="square30">
+						<div class="square__num" id="num30">
+							30
+						</div>
+					</div>
+				</div>
+
+				<!-- Ряд 4 -->
+				<div class="kinozal__item" id="item31">
+					<div class="square" id="square31">
+						<div class="square__num" id="num31">
+							31
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item32">
+					<div class="square" id="square32">
+						<div class="square__num" id="num32">
+							32
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item33">
+					<div class="square" id="square33">
+						<div class="square__num" id="num33">
+							33
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item34">
+					<div class="square" id="square34">
+						<div class="square__num" id="num34">
+							34
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item35">
+					<div class="square" id="square35">
+						<div class="square__num" id="num35">
+							35
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item36">
+					<div class="square" id="square36">
+						<div class="square__num" id="num36">
+							36
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item37">
+					<div class="square" id="square37">
+						<div class="square__num" id="num37">
+							37
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item38">
+					<div class="square" id="square38">
+						<div class="square__num" id="num38">
+							38
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item39">
+					<div class="square" id="square39">
+						<div class="square__num" id="num39">
+							39
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item40">
+					<div class="square" id="square40">
+						<div class="square__num" id="num40">
+							40
+						</div>
+					</div>
+				</div>
+
+				<!-- Ряд 5 -->
+				<div class="kinozal__item" id="item41">
+					<div class="square" id="square41">
+						<div class="square__num" id="num41">
+							41
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item42">
+					<div class="square" id="square42">
+						<div class="square__num" id="num42">
+							42
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item43">
+					<div class="square" id="square43">
+						<div class="square__num" id="num43">
+							43
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item44">
+					<div class="square" id="square44">
+						<div class="square__num" id="num44">
+							44
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item45">
+					<div class="square" id="square45">
+						<div class="square__num" id="num45">
+							45
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item46">
+					<div class="square" id="square46">
+						<div class="square__num" id="num46">
+							46
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item47">
+					<div class="square" id="square47">
+						<div class="square__num" id="num47">
+							47
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item48">
+					<div class="square" id="square48">
+						<div class="square__num" id="num48">
+							48
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item49">
+					<div class="square" id="square49">
+						<div class="square__num" id="num49">
+							49
+						</div>
+					</div>
+				</div>
+
+				<div class="kinozal__item" id="item50">
+					<div class="square" id="square50">
+						<div class="square__num" id="num50">
+							50
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
